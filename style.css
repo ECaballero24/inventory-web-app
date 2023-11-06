@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Rubik+Moonrocks&display=swap');
+
+/* This is a CSS comment */
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body element */
+
+body {
+    background-color: rgb(141, 136, 130);
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: rgb(116, 91, 179);
+    padding: 10px;
+    font-family:Rubik Moonrocks ;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #ea4b4b;
+    border: 1px solid #6136ee;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  input[type="reset"], input[type="submit"] {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #85ec3b;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="reset"]:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
+  
